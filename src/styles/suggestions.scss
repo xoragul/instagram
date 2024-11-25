@@ -1,0 +1,57 @@
+    .suggestions{
+
+    .title{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profiles{
+        display: flex;
+        gap: 10px;
+        .suggestion-profile{
+            
+            width: 170px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgb(223, 219, 219);
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+            
+            .top{
+                display: flex;
+                justify-content: end;
+                width: 100%;
+                img{
+                    padding: 10px;
+                    height: 12px;
+                }
+            }
+
+            .middle{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+
+            .bottom{
+                width: 100%;
+                border-top: 1px solid rgb(199, 199, 199);
+                p{
+                    color:rgb(0, 119, 255)
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

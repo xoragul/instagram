@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .center{  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px;
+        flex:2;
+        margin: 20px 40px;
+    }
+}
+
+.layout{
+    display: flex;
+    .layout-right{  
+        width: 260px;
+    }
+    .layout-center{
+        flex: 1;
+    }
+}

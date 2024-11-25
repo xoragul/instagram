@@ -1,0 +1,84 @@
+.aside-right{
+    margin: 20px 40px 0 0;
+   .profileCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftSide{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        img{
+            height: 50px;
+            border: 1px solid gray;
+            border-radius: 50%;
+        }
+
+        .names{
+            h5{
+                font-size: 1em;
+                margin: 0;
+            }
+            span{
+                font: 0.9em sans-serif;
+                color: gray;
+            }
+
+            #recom{
+                font-size: 0.8em;
+            }
+        }
+    }
+    .rightSide{
+        p{
+            color: rgb(7, 104, 250);
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
+}
+    .gap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
+    .recommended{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .detail {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         ul {
+             display: grid;
+             grid-template-columns: repeat(6 ,auto);
+             gap: 5px;
+             padding: 5px;
+             list-style: none;
+ 
+             li {
+                 font-size: 12px;
+                 color: #818181;
+                 font-weight: 500;
+             }
+        } 
+    }
+    .bottom{
+        span{
+            font-size: 12px;
+            font-weight: lighter;
+        }
+    }
+
+
+
+}

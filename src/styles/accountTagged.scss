@@ -1,0 +1,33 @@
+.account-Tagged{
+    .tagged{
+        margin-top: 50px;
+        .img-border{
+            border-radius: 50%;
+            background: linear-gradient(to black);
+            position:relative ;
+            border: solid rgb(97, 94, 94);
+            height: 65px;
+            width: 65px; 
+            border-width: 2px;
+            margin-left: 400px;
+        }
+        img{
+            position: absolute;
+            padding-top: 15px;
+            padding-left: 15px;
+            height: 35px;
+        }
+        .content{
+            .para{
+                margin-top: 16px;
+                margin-bottom: 18px;
+                font-size: 32px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+
+
+}

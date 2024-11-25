@@ -1,0 +1,52 @@
+.Account-save{
+    .save{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        .save-left{
+            color: rgb(134, 126, 126);
+        }
+        .save-right{
+            font-size: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+    }
+    .save-center{
+        .img-border{
+            border-radius: 50%;
+            background: linear-gradient(to black);
+            position:relative ;
+            border: solid rgb(97, 94, 94);
+            height: 65px;
+            width: 65px; 
+            border-width: 2px;
+            margin-left: 410px; 
+        }
+        img{
+            position:absolute;
+            height: 30px;
+            width: 35px;
+            align-items: center;
+            padding-top:20px;
+            padding-left: 14px;
+
+        }
+        .save-paragraph{
+            margin-top: 12px;
+            font-size: 34px;
+            margin-left: 20px;
+        }
+        .para{
+            font-size: 16px;
+            margin-top: 8px;
+            width: 400px;
+            margin-left:270px ;
+        }
+    }
+    .save-footer{
+        display: flex;
+        gap: 20px;
+        color: rgb(161, 156, 156);
+    }
+}

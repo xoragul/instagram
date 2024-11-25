@@ -1,0 +1,133 @@
+#sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .top {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .form {
+            width: 350px;
+            display: flex;
+            gap: 20px;
+            padding: 20px 0;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #d1d1d1;
+
+            .elements {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+
+                input {
+                    width: 250px;
+                    height: 18px;
+                    padding: 10px;
+                    background-color: #fafafa;
+                    border: 1px solid #d1d1d1;
+                    border-radius: 3px;
+                }
+
+                button {
+                    width: 270px;
+                    padding: 7px 20px;
+                    background-color: #5eabfd;
+                    border: none;
+                    border-radius: 8px;
+                    color: white;
+                    font-size: 15px;
+                }
+
+                .or {
+                    display: flex;
+                    gap: 20px;
+
+                    hr {
+                        width: 100px;
+                        height: 1px;
+                        border: none;
+                        background-color: rgb(216, 213, 213);
+                    }
+                }
+
+                .login {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        height: 16px;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #0c2d86;
+                    }
+                }
+            }
+
+            #forgot {
+                font-size: 12px;
+            }
+        }
+
+        #noAccount {
+            width: 350px;
+            text-align: center;
+            padding: 20px 0;
+            border: 1px solid #d1d1d1;
+            span{
+                color: #1183fc;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+
+        .download {
+            width: 350px;
+            text-align: center;
+
+
+            img {
+                height: 40px;
+            }
+
+            .one {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         ul {
+             display: flex;
+             gap: 20px;
+             list-style: none;
+ 
+             li {
+                 font-size: 12px;
+                 color: #818181;
+                 font-weight: 500;
+             }
+         }
+ 
+        .copy-rights {
+            display: flex;
+
+            span {
+                font-size: 12px;
+                color: #818181;
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.posts{
+    .post{
+        margin-top: 20px;
+        border-top: 1px solid rgb(180, 180, 180);
+        width: 400px;
+        padding: 0 20px;
+        .top{
+            width: 100%;
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                h4{
+                    display: flex;
+                    align-items: center;
+                    p{
+                        display: flex;
+                        align-items: center;
+                        color: rgb(134, 132, 132);
+                        font-size: 13px;
+                    }
+                }
+            }
+            
+            img{
+                height: 20px;
+            }
+        }
+
+
+        .mid{
+            img{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .bottom{
+            .icons{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 0;
+                align-items: center;
+                .left{
+                    display: flex;
+                    gap:20px;
+                    align-items: center;
+                }
+
+                .icon{
+                    font-size: 40px;
+                }
+            }
+            p{
+                text-align: start;
+                margin: 5px 0;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .descrp{
+                p{
+                    color:rgb(51, 51, 51);
+                    font-weight: normal;
+
+                    span{
+                        color:black;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            #comments{
+                font-weight: bold;
+                font-size: 15px;
+                color: gray;
+            }
+
+            input{
+                border: none;
+            }
+
+            input:focus{
+                outline: none;
+            }
+
+        }
+    }
+}
